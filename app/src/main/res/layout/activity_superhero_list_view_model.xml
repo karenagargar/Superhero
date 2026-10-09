@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/superheroes">
+
+    <ImageView
+        android:id="@+id/superhero_image1"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:contentDescription="image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/superhero_nombre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        tools:text="aaa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/superhero_image1"
+        app:layout_constraintTop_toTopOf="@id/superhero_image1" />
+
+    <TextView
+        android:id="@+id/superhero_slug1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="bbb"
+        app:layout_constraintStart_toEndOf="@id/superhero_image1"
+        app:layout_constraintTop_toBottomOf="@id/superhero_nombre1" />
+
+
+    <ImageView
+        android:id="@+id/superhero_image2"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:contentDescription="image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/superhero_image1"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/superhero_nombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        tools:text="aaa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/superhero_image2"
+        app:layout_constraintTop_toTopOf="@id/superhero_image2" />
+
+    <TextView
+        android:id="@+id/superhero_slug2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="bbb"
+        app:layout_constraintStart_toEndOf="@id/superhero_image2"
+        app:layout_constraintTop_toBottomOf="@id/superhero_nombre2" />
+
+
+    <ImageView
+        android:id="@+id/superhero_image3"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:contentDescription="image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/superhero_image2"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/superhero_nombre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        tools:text="aaa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/superhero_image3"
+        app:layout_constraintTop_toTopOf="@id/superhero_image3" />
+
+    <TextView
+        android:id="@+id/superhero_slug3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="bbb"
+        app:layout_constraintStart_toEndOf="@id/superhero_image3"
+        app:layout_constraintTop_toBottomOf="@id/superhero_nombre3" />
+
+
+    <ImageView
+        android:id="@+id/superhero_image4"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:contentDescription="image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/superhero_image3"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/superhero_nombre4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        tools:text="aaa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/superhero_image4"
+        app:layout_constraintTop_toTopOf="@id/superhero_image4" />
+
+    <TextView
+        android:id="@+id/superhero_slug4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="bbb"
+        app:layout_constraintStart_toEndOf="@id/superhero_image4"
+        app:layout_constraintTop_toBottomOf="@id/superhero_nombre4" />
+
+
+    <ImageView
+        android:id="@+id/superhero_image5"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:contentDescription="image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/superhero_image4"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/superhero_nombre5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        tools:text="aaa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/superhero_image5"
+        app:layout_constraintTop_toTopOf="@id/superhero_image5" />
+
+    <TextView
+        android:id="@+id/superhero_slug5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="bbb"
+        app:layout_constraintStart_toEndOf="@id/superhero_image5"
+        app:layout_constraintTop_toBottomOf="@id/superhero_nombre5" />
+
+
+
+    <ImageView
+        android:id="@+id/superhero_image6"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:contentDescription="image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/superhero_image5"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/superhero_nombre6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        tools:text="aaa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/superhero_image6"
+        app:layout_constraintTop_toTopOf="@id/superhero_image6" />
+
+    <TextView
+        android:id="@+id/superhero_slug6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="bbb"
+        app:layout_constraintStart_toEndOf="@id/superhero_image6"
+        app:layout_constraintTop_toBottomOf="@id/superhero_nombre6" />
+
+    <ImageView
+        android:id="@+id/superhero_image7"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:contentDescription="image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/superhero_image6"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/superhero_nombre7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        tools:text="aaa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/superhero_image7"
+        app:layout_constraintTop_toTopOf="@id/superhero_image7" />
+
+    <TextView
+        android:id="@+id/superhero_slug7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="bbb"
+        app:layout_constraintStart_toEndOf="@id/superhero_image7"
+        app:layout_constraintTop_toBottomOf="@id/superhero_nombre7" />
+    <ImageView
+        android:id="@+id/superhero_image8"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:contentDescription="image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/superhero_image7"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/superhero_nombre8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        tools:text="aaa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/superhero_image8"
+        app:layout_constraintTop_toTopOf="@id/superhero_image8" />
+
+    <TextView
+        android:id="@+id/superhero_slug8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="bbb"
+        app:layout_constraintStart_toEndOf="@id/superhero_image8"
+        app:layout_constraintTop_toBottomOf="@id/superhero_nombre8" />
+    <ImageView
+        android:id="@+id/superhero_image9"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:contentDescription="image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/superhero_image8"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/superhero_nombre9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        tools:text="aaa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/superhero_image9"
+        app:layout_constraintTop_toTopOf="@id/superhero_image9" />
+
+    <TextView
+        android:id="@+id/superhero_slug9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="bbb"
+        app:layout_constraintStart_toEndOf="@id/superhero_image9"
+        app:layout_constraintTop_toBottomOf="@id/superhero_nombre9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
